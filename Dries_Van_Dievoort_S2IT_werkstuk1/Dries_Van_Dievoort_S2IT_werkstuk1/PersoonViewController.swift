@@ -8,8 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PersoonViewController: UIViewController {
 
+    var persoon = Persoon()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
