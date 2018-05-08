@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F39D11B20A19DB20083C7A1"
-               BuildableName = "Dries_Van_Dioevoort_S2IT_werkstuk1.app"
-               BlueprintName = "Dries_Van_Dioevoort_S2IT_werkstuk1"
-               ReferencedContainer = "container:Dries_Van_Dioevoort_S2IT_werkstuk1.xcodeproj">
+               BlueprintIdentifier = "3F39D15520A19E980083C7A1"
+               BuildableName = "Dries_Van_Dievoort_S2IT_werkstuk1.app"
+               BlueprintName = "Dries_Van_Dievoort_S2IT_werkstuk1"
+               ReferencedContainer = "container:Dries_Van_Dievoort_S2IT_werkstuk1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F39D12F20A19DB20083C7A1"
-               BuildableName = "Dries_Van_Dioevoort_S2IT_werkstuk1Tests.xctest"
-               BlueprintName = "Dries_Van_Dioevoort_S2IT_werkstuk1Tests"
-               ReferencedContainer = "container:Dries_Van_Dioevoort_S2IT_werkstuk1.xcodeproj">
+               BlueprintIdentifier = "3F39D16920A19E980083C7A1"
+               BuildableName = "Dries_Van_Dievoort_S2IT_werkstuk1Tests.xctest"
+               BlueprintName = "Dries_Van_Dievoort_S2IT_werkstuk1Tests"
+               ReferencedContainer = "container:Dries_Van_Dievoort_S2IT_werkstuk1.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F39D13A20A19DB20083C7A1"
-               BuildableName = "Dries_Van_Dioevoort_S2IT_werkstuk1UITests.xctest"
-               BlueprintName = "Dries_Van_Dioevoort_S2IT_werkstuk1UITests"
-               ReferencedContainer = "container:Dries_Van_Dioevoort_S2IT_werkstuk1.xcodeproj">
+               BlueprintIdentifier = "3F39D17420A19E980083C7A1"
+               BuildableName = "Dries_Van_Dievoort_S2IT_werkstuk1UITests.xctest"
+               BlueprintName = "Dries_Van_Dievoort_S2IT_werkstuk1UITests"
+               ReferencedContainer = "container:Dries_Van_Dievoort_S2IT_werkstuk1.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F39D11B20A19DB20083C7A1"
-            BuildableName = "Dries_Van_Dioevoort_S2IT_werkstuk1.app"
-            BlueprintName = "Dries_Van_Dioevoort_S2IT_werkstuk1"
-            ReferencedContainer = "container:Dries_Van_Dioevoort_S2IT_werkstuk1.xcodeproj">
+            BlueprintIdentifier = "3F39D15520A19E980083C7A1"
+            BuildableName = "Dries_Van_Dievoort_S2IT_werkstuk1.app"
+            BlueprintName = "Dries_Van_Dievoort_S2IT_werkstuk1"
+            ReferencedContainer = "container:Dries_Van_Dievoort_S2IT_werkstuk1.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F39D11B20A19DB20083C7A1"
-            BuildableName = "Dries_Van_Dioevoort_S2IT_werkstuk1.app"
-            BlueprintName = "Dries_Van_Dioevoort_S2IT_werkstuk1"
-            ReferencedContainer = "container:Dries_Van_Dioevoort_S2IT_werkstuk1.xcodeproj">
+            BlueprintIdentifier = "3F39D15520A19E980083C7A1"
+            BuildableName = "Dries_Van_Dievoort_S2IT_werkstuk1.app"
+            BlueprintName = "Dries_Van_Dievoort_S2IT_werkstuk1"
+            ReferencedContainer = "container:Dries_Van_Dievoort_S2IT_werkstuk1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F39D11B20A19DB20083C7A1"
-            BuildableName = "Dries_Van_Dioevoort_S2IT_werkstuk1.app"
-            BlueprintName = "Dries_Van_Dioevoort_S2IT_werkstuk1"
-            ReferencedContainer = "container:Dries_Van_Dioevoort_S2IT_werkstuk1.xcodeproj">
+            BlueprintIdentifier = "3F39D15520A19E980083C7A1"
+            BuildableName = "Dries_Van_Dievoort_S2IT_werkstuk1.app"
+            BlueprintName = "Dries_Van_Dievoort_S2IT_werkstuk1"
+            ReferencedContainer = "container:Dries_Van_Dievoort_S2IT_werkstuk1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

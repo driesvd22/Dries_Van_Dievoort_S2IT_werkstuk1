@@ -1,15 +1,15 @@
 //
-//  Dries_Van_Dioevoort_S2IT_werkstuk1Tests.swift
-//  Dries_Van_Dioevoort_S2IT_werkstuk1Tests
+//  Dries_Van_Dievoort_S2IT_werkstuk1Tests.swift
+//  Dries_Van_Dievoort_S2IT_werkstuk1Tests
 //
 //  Created by student on 08/05/18.
 //  Copyright © 2018 EHB. All rights reserved.
 //
 
 import XCTest
-@testable import Dries_Van_Dioevoort_S2IT_werkstuk1
+@testable import Dries_Van_Dievoort_S2IT_werkstuk1
 
-class Dries_Van_Dioevoort_S2IT_werkstuk1Tests: XCTestCase {
+class Dries_Van_Dievoort_S2IT_werkstuk1Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()

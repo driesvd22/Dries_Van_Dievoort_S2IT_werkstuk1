@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Dries_Van_Dioevoort_S2IT_werkstuk1
+//  Dries_Van_Dievoort_S2IT_werkstuk1
 //
 //  Created by student on 08/05/18.
 //  Copyright © 2018 EHB. All rights reserved.
