@@ -57,7 +57,8 @@ class TableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "naarPersoonView"
         {
-            let vc = segue.destination as! PersoonViewController
+            let tabCtrl = segue.destination as! UITabBarController
+            let vc = tabCtrl.viewControllers![0] as! PersoonViewController
             let indexPath = self.tableView.indexPathForSelectedRow
             vc.persoon = personen[(indexPath?.row)!]
         }
