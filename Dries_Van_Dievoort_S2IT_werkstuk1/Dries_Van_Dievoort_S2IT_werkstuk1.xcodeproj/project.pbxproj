@@ -103,12 +103,12 @@
 			children = (
 				3F39D1AD20A1AED10083C7A1 /* AppDelegate.swift */,
 				3F39D1B120A1AED10083C7A1 /* Main.storyboard */,
-				3F39D1E920A1B5170083C7A1 /* Persoon.swift */,
 				3F39D1EB20A1B71B0083C7A1 /* TableViewController.swift */,
+				3F3CAFEA20A9A533000466CB /* PersoonViewController.swift */,
+				3F39D1E920A1B5170083C7A1 /* Persoon.swift */,
 				3F39D1B420A1AED10083C7A1 /* Assets.xcassets */,
 				3F39D1B620A1AED10083C7A1 /* LaunchScreen.storyboard */,
 				3F39D1B920A1AED10083C7A1 /* Info.plist */,
-				3F3CAFEA20A9A533000466CB /* PersoonViewController.swift */,
 			);
 			path = Dries_Van_Dievoort_S2IT_werkstuk1;
 			sourceTree = "<group>";

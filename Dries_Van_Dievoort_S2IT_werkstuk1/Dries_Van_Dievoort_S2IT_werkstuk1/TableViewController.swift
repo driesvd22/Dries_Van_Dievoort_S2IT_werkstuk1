@@ -51,16 +51,16 @@ class TableViewController: UITableViewController {
         cell.textLabel?.text = personen[indexPath.row].voornaam + " " + personen[indexPath.row].naam
         cell.imageView?.image = UIImage(named: personen[indexPath.row].foto)
         
-        return cell
+        return cellÒ
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "naarPersoonView"
         {
-            let tabCtrl = segue.destination as! UITabBarController
-            let vc = tabCtrl.viewControllers![0] as! PersoonViewController
+            let tabCtrl =  segue.destination as! UITabBarController
+            let desView: PersoonViewController = tabCtrl.viewControllers?.first as! PersoonViewController
             let indexPath = self.tableView.indexPathForSelectedRow
-            vc.persoon = personen[(indexPath?.row)!]
+            desView.persoon = personen[(indexPath?.row)!]
         }
     }
 }

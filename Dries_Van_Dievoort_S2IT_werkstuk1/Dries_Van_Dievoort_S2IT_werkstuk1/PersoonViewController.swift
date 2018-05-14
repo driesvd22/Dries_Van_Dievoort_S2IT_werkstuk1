@@ -11,5 +11,7 @@ import UIKit
 class PersoonViewController: UITabBarController {
     var persoon = Persoon()
     
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }
