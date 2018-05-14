@@ -28,7 +28,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2000px-IOS_logo.svg.png" translatesAutoresizingMaskIntoConstraints="NO" id="kew-um-9sU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2000px-IOS_logo.svg-1" translatesAutoresizingMaskIntoConstraints="NO" id="kew-um-9sU">
                                 <rect key="frame" x="122" y="268" width="130" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -49,6 +49,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="2000px-IOS_logo.svg.png" width="2000" height="2000"/>
+        <image name="2000px-IOS_logo.svg-1" width="2000" height="2000"/>
     </resources>
 </document>

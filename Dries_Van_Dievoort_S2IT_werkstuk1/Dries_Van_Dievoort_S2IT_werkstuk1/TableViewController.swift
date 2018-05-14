@@ -51,7 +51,7 @@ class TableViewController: UITableViewController {
         cell.textLabel?.text = personen[indexPath.row].voornaam + " " + personen[indexPath.row].naam
         cell.imageView?.image = UIImage(named: personen[indexPath.row].foto)
         
-        return cellÒ
+        return cell
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
