@@ -85,9 +85,7 @@ class PersoonViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "naarLocatieView"
         {
-            let vc =  segue.destination as! PersoonViewController
-            let indexPath = self.tableView.indexPathForSelectedRow
-            vc.persoon = personen[(indexPath?.row)!]
+            _ =  segue.destination as! LocatieViewController
         }
     }
 }

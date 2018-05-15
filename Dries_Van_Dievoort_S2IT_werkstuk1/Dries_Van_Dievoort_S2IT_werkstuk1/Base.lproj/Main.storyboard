@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -137,10 +138,10 @@
             </objects>
             <point key="canvasLocation" x="2568.8000000000002" y="134.48275862068968"/>
         </scene>
-        <!--View Controller-->
+        <!--Locatie View Controller-->
         <scene sceneID="QaS-NW-AfI">
             <objects>
-                <viewController id="31S-z3-dpf" sceneMemberID="viewController">
+                <viewController id="31S-z3-dpf" customClass="LocatieViewController" customModule="Dries_Van_Dievoort_S2IT_werkstuk1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kau-Y9-uLe"/>
                         <viewControllerLayoutGuide type="bottom" id="LD4-Qq-dst"/>
@@ -148,12 +149,28 @@
                     <view key="view" contentMode="scaleToFill" id="Myp-0x-Ko7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Cb8-4B-4pJ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Cb8-4B-4pJ" firstAttribute="width" secondItem="Myp-0x-Ko7" secondAttribute="height" multiplier="375:667" id="9eg-gc-SNd"/>
+                            <constraint firstItem="Cb8-4B-4pJ" firstAttribute="centerY" secondItem="Myp-0x-Ko7" secondAttribute="centerY" id="D5l-Gy-nqW"/>
+                            <constraint firstItem="Cb8-4B-4pJ" firstAttribute="height" secondItem="Myp-0x-Ko7" secondAttribute="height" id="OR3-YX-GGn"/>
+                            <constraint firstItem="Cb8-4B-4pJ" firstAttribute="centerX" secondItem="Myp-0x-Ko7" secondAttribute="centerX" id="ih7-TI-pDG"/>
+                            <constraint firstItem="Cb8-4B-4pJ" firstAttribute="centerY" secondItem="Myp-0x-Ko7" secondAttribute="centerY" id="j9r-bN-bzo"/>
+                            <constraint firstItem="Cb8-4B-4pJ" firstAttribute="width" secondItem="Myp-0x-Ko7" secondAttribute="width" id="va2-hS-VP9"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myMap" destination="Cb8-4B-4pJ" id="k0K-c6-RrE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NfH-AS-bIc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2569" y="890"/>
+            <point key="canvasLocation" x="2568.8000000000002" y="889.20539730134942"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="32a-yi-cdu">
