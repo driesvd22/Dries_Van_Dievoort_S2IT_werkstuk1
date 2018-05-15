@@ -16,7 +16,8 @@ class Persoon {
     var nummer: String
     var postcode: String
     var gemeente: String
-    var gps: String
+    var gpsLA: Double
+    var gpsLO: Double
     var telefoon: String
     
     init() {
@@ -27,11 +28,12 @@ class Persoon {
         nummer = ""
         postcode = ""
         gemeente = ""
-        gps = ""
+        gpsLA = 0.0
+        gpsLO = 0.0
         telefoon = ""
     }
     
-    init(voornaam: String, naam:String, foto: String, straat: String, nummer: String, postcode: String, gemeente: String, gps: String, telefoon: String){
+    init(voornaam: String, naam:String, foto: String, straat: String, nummer: String, postcode: String, gemeente: String, gpsLA: Double,gpsLO: Double, telefoon: String){
         self.voornaam = voornaam
         self.naam = naam
         self.foto = foto
@@ -39,7 +41,8 @@ class Persoon {
         self.nummer = nummer
         self.postcode = postcode
         self.gemeente = gemeente
-        self.gps = gps
+        self.gpsLA = gpsLA
+        self.gpsLO = gpsLO
         self.telefoon = telefoon
     }
 }
