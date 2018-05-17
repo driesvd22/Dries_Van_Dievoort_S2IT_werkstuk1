@@ -4,7 +4,9 @@
 //
 //  Created by student on 14/05/18.
 //  Copyright © 2018 EHB. All rights reserved.
-//
+//  Logic for Mapview, locations and annotations from https://www.youtube.com/watch?v=UyiuX8jULF4
+//  basic logic for imagemagnifier from https://www.youtube.com/watch?v=cawmiVPOFWY 
+
 
 import UIKit
 import MapKit
@@ -12,6 +14,7 @@ import CoreLocation
 
 class PersoonViewController: UIViewController {
     var persoon = Persoon()
+    var personen = [Persoon]()
     
     @IBOutlet weak var myImage: UIImageView!
     
@@ -26,14 +29,7 @@ class PersoonViewController: UIViewController {
     
     @IBOutlet weak var myMap: MKMapView!
     
-    @IBAction func transformImage(_ sender: UIPinchGestureRecognizer) {
-        self.myImage.transform =  CGAffineTransform(scaleX: sender.scale, y: sender.scale)
-        
-        
-        //sender.scale = 1
-        
-        print("ok")
-    }
+    
 
     @IBAction func imageTapped(_ sender: UITapGestureRecognizer) {
         let imageView = sender.view as! UIImageView
@@ -85,7 +81,8 @@ class PersoonViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "naarLocatieView"
         {
-            _ =  segue.destination as! LocatieViewController
+            let vc =  segue.destination as! LocatieViewController
+            vc.personen = personen
         }
     }
 }

@@ -4,7 +4,8 @@
 //
 //  Created by student on 08/05/18.
 //  Copyright © 2018 EHB. All rights reserved.
-//
+//  Logic from Werkcollege Tableviewbis
+
 
 import UIKit
 
@@ -58,6 +59,7 @@ class TableViewController: UITableViewController {
         {
             let vc =  segue.destination as! PersoonViewController
             let indexPath = self.tableView.indexPathForSelectedRow
+            vc.personen = personen
             vc.persoon = personen[(indexPath?.row)!]
         }
     }
