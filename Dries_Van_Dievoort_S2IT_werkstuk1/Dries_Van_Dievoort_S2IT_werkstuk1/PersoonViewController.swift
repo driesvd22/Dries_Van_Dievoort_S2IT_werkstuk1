@@ -12,9 +12,8 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class PersoonViewController: UIViewController {
+class PersoonViewController: UIViewController, MKMapViewDelegate {
     var persoon = Persoon()
-    var personen = [Persoon]()
     
     @IBOutlet weak var myImage: UIImageView!
     
@@ -78,11 +77,5 @@ class PersoonViewController: UIViewController {
         
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "naarLocatieView"
-        {
-            let vc =  segue.destination as! LocatieViewController
-            vc.personen = personen
-        }
-    }
+   
 }

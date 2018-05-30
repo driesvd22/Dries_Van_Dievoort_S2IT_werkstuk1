@@ -16,6 +16,8 @@
 		3F39D1EA20A1B5170083C7A1 /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39D1E920A1B5170083C7A1 /* Persoon.swift */; };
 		3F39D1EC20A1B71B0083C7A1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F39D1EB20A1B71B0083C7A1 /* TableViewController.swift */; };
 		3F3CAFEB20A9A534000466CB /* PersoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3CAFEA20A9A533000466CB /* PersoonViewController.swift */; };
+		3F4E7E9E20BF278A00E0E701 /* SingletonPersoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7E9D20BF278A00E0E701 /* SingletonPersoon.swift */; };
+		3F4E7EA020BF2C6700E0E701 /* PersoonAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E7E9F20BF2C6700E0E701 /* PersoonAnnotation.swift */; };
 		3F53A67020AAD3D50049929F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F53A66F20AAD3D50049929F /* MapKit.framework */; };
 		3F53A67220AADE4A0049929F /* LocatieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53A67120AADE4A0049929F /* LocatieViewController.swift */; };
 		3F53A67420AAE21C0049929F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F53A67320AAE21C0049929F /* CoreLocation.framework */; };
@@ -54,6 +56,8 @@
 		3F39D1E920A1B5170083C7A1 /* Persoon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
 		3F39D1EB20A1B71B0083C7A1 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		3F3CAFEA20A9A533000466CB /* PersoonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersoonViewController.swift; sourceTree = "<group>"; };
+		3F4E7E9D20BF278A00E0E701 /* SingletonPersoon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonPersoon.swift; sourceTree = "<group>"; };
+		3F4E7E9F20BF2C6700E0E701 /* PersoonAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersoonAnnotation.swift; sourceTree = "<group>"; };
 		3F53A66F20AAD3D50049929F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3F53A67120AADE4A0049929F /* LocatieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocatieViewController.swift; sourceTree = "<group>"; };
 		3F53A67320AAE21C0049929F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -111,13 +115,15 @@
 			isa = PBXGroup;
 			children = (
 				3F39D1AD20A1AED10083C7A1 /* AppDelegate.swift */,
-				3F39D1B120A1AED10083C7A1 /* Main.storyboard */,
+				3F4E7E9F20BF2C6700E0E701 /* PersoonAnnotation.swift */,
+				3F39D1E920A1B5170083C7A1 /* Persoon.swift */,
+				3F4E7E9D20BF278A00E0E701 /* SingletonPersoon.swift */,
 				3F39D1EB20A1B71B0083C7A1 /* TableViewController.swift */,
 				3F3CAFEA20A9A533000466CB /* PersoonViewController.swift */,
 				3F53A67120AADE4A0049929F /* LocatieViewController.swift */,
-				3F39D1E920A1B5170083C7A1 /* Persoon.swift */,
-				3F39D1B420A1AED10083C7A1 /* Assets.xcassets */,
+				3F39D1B120A1AED10083C7A1 /* Main.storyboard */,
 				3F39D1B620A1AED10083C7A1 /* LaunchScreen.storyboard */,
+				3F39D1B420A1AED10083C7A1 /* Assets.xcassets */,
 				3F39D1B920A1AED10083C7A1 /* Info.plist */,
 			);
 			path = Dries_Van_Dievoort_S2IT_werkstuk1;
@@ -291,7 +297,9 @@
 			files = (
 				3F39D1AE20A1AED10083C7A1 /* AppDelegate.swift in Sources */,
 				3F39D1EA20A1B5170083C7A1 /* Persoon.swift in Sources */,
+				3F4E7E9E20BF278A00E0E701 /* SingletonPersoon.swift in Sources */,
 				3F39D1EC20A1B71B0083C7A1 /* TableViewController.swift in Sources */,
+				3F4E7EA020BF2C6700E0E701 /* PersoonAnnotation.swift in Sources */,
 				3F53A67220AADE4A0049929F /* LocatieViewController.swift in Sources */,
 				3F3CAFEB20A9A534000466CB /* PersoonViewController.swift in Sources */,
 			);
