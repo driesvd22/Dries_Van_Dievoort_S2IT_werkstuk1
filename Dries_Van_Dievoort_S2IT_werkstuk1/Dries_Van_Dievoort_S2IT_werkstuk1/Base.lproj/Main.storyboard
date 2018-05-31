@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G20015" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zKv-IQ-hd1">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8og-ei-Wdm">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,11 +23,11 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OLD-3E-I3Z" id="Qi3-10-OPA">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="8og-ei-Wdm" kind="showDetail" id="uAr-E8-JN7"/>
+                                    <segue destination="kUJ-3f-w9o" kind="show" identifier="naarPersoonView" id="tKL-pM-8SA"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -40,7 +40,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OP8-Q5-uzT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1694" y="124"/>
+            <point key="canvasLocation" x="2108" y="418"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="XLC-Q2-jtF">
@@ -52,13 +52,13 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="kUJ-3f-w9o" kind="relationship" relationship="viewControllers" id="Ncf-9R-eTH"/>
+                        <segue destination="zKv-IQ-hd1" kind="relationship" relationship="viewControllers" id="qL9-ta-FHi"/>
                         <segue destination="31S-z3-dpf" kind="relationship" relationship="viewControllers" id="jYB-fN-53r"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OLy-z8-OdO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2537" y="124"/>
+            <point key="canvasLocation" x="326" y="890"/>
         </scene>
         <!--Item-->
         <scene sceneID="xNh-vX-oPV">
@@ -109,7 +109,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="DXu-IO-iDL">
-                                <rect key="frame" x="0.0" y="361" width="375" height="306"/>
+                                <rect key="frame" x="0.0" y="301" width="375" height="366"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
@@ -117,24 +117,19 @@
                                 </connections>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GPS:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fuj-15-9fo">
-                                <rect key="frame" x="16" y="323" width="38" height="21"/>
+                                <rect key="frame" x="16" y="272" width="38" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Zf-4L-62n">
-                                <rect key="frame" x="70" y="323" width="234" height="21"/>
+                                <rect key="frame" x="62" y="272" width="234" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nga-bB-a8f">
-                                <rect key="frame" x="16" y="285" width="101" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Eigen Locatie"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -157,9 +152,9 @@
                 </tapGestureRecognizer>
                 <pinchGestureRecognizer id="XTO-8K-3MM"/>
             </objects>
-            <point key="canvasLocation" x="3388" y="-217"/>
+            <point key="canvasLocation" x="3229.5999999999999" y="417.8410794602699"/>
         </scene>
-        <!--Item-->
+        <!--Location-->
         <scene sceneID="QaS-NW-AfI">
             <objects>
                 <viewController id="31S-z3-dpf" customClass="LocatieViewController" customModule="Dries_Van_Dievoort_S2IT_werkstuk1" customModuleProvider="target" sceneMemberID="viewController">
@@ -171,7 +166,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Cb8-4B-4pJ">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Cb8-4B-4pJ">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                             </mapView>
                         </subviews>
@@ -185,19 +180,20 @@
                             <constraint firstItem="Cb8-4B-4pJ" firstAttribute="width" secondItem="Myp-0x-Ko7" secondAttribute="width" id="va2-hS-VP9"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="2Kk-Wb-ehy"/>
+                    <tabBarItem key="tabBarItem" title="Location" image="icons8-map-marker-40" landscapeImage="icons8-map-marker-40" largeContentSizeImage="icons8-map-marker-40" selectedImage="icons8-map-marker-40" id="2Kk-Wb-ehy"/>
                     <connections>
                         <outlet property="myMap" destination="Cb8-4B-4pJ" id="k0K-c6-RrE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NfH-AS-bIc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3388" y="566"/>
+            <point key="canvasLocation" x="1206" y="1256"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Detail-->
         <scene sceneID="32a-yi-cdu">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zKv-IQ-hd1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Detail" image="icons8-view-details-40" landscapeImage="icons8-view-details-40" largeContentSizeImage="icons8-view-details-40" selectedImage="icons8-view-details-40" id="2Lf-CK-oZP"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bVP-Cg-EYC">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -210,7 +206,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XMw-6Z-4c4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="874" y="124"/>
+            <point key="canvasLocation" x="1207" y="418"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-map-marker-40" width="40" height="40"/>
+        <image name="icons8-view-details-40" width="40" height="40"/>
+    </resources>
 </document>

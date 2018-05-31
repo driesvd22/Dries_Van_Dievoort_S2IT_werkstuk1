@@ -12,7 +12,7 @@ import CoreLocation
 
 class LocatieViewController: UIViewController, CLLocationManagerDelegate {
     
-    var personen = [Persoon]()
+    var personen = SingletonPersoon.instance.getPersonen()
     
     
     @IBOutlet weak var myMap: MKMapView!
@@ -44,10 +44,7 @@ class LocatieViewController: UIViewController, CLLocationManagerDelegate {
         
         for persoon in personen {
             let location = CLLocationCoordinate2DMake(persoon.gpsLA, persoon.gpsLO)
-            let annotation = MKPointAnnotation()
-            annotation.coordinate = location
-            annotation.title = "Hello it's "+persoon.naam+" over here"
-            annotation.subtitle = "chillin at my place"
+            let annotation:PersoonAnnotation = PersoonAnnotation(coordinate: location, title: "Hello it's "+persoon.naam+" over here", subtitle: "chillin at my place")
             myMap.addAnnotation(annotation)
         }
         

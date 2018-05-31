@@ -68,10 +68,7 @@ class PersoonViewController: UIViewController, MKMapViewDelegate {
         
         myMap.setRegion(region, animated: true)
         
-        let annotation = MKPointAnnotation()
-        annotation.coordinate = location
-        annotation.title = "Hello I am here"
-        annotation.subtitle = "Chillin at "+persoon.voornaam+"'s " + "place"
+        let annotation:PersoonAnnotation = PersoonAnnotation(coordinate: location, title: "Hello I am here", subtitle: "Chillin at "+persoon.voornaam+"'s " + "place")
         
         myMap.addAnnotation(annotation)
         
